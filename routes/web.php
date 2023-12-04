@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\MainMuscleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,8 @@ Route::get('/', function () {
 });
 
 Route::resource('category', CategoryController::class);
+
+Route::resource('main_muscle', MainMuscleController::class);
+
+
+
